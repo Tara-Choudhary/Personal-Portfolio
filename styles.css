@@ -11,7 +11,7 @@
   color: #1A2151;
 }
 
-.navbar-brand,.nav-link a{
+.navbar-brand,.nav-link ,a{
   color: white;
 }
 .nav-link a:hover{
