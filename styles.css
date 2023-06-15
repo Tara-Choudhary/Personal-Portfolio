@@ -10,6 +10,17 @@
 .btn-color a{
   color: #1A2151;
 }
+
+.navbar-brand, .nav-link{
+  color: #1b1b1b;
+}
+.nav-link:hover{
+  color: #e2cfcf;
+}
+.navbar-brand:hover{
+  color: #eee9e9;
+}
+
 .social-link {
     color: #4b4a4a;
     font-size: 24px;
