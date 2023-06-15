@@ -1,0 +1,104 @@
+ 
+.bg-color{
+  background: linear-gradient(108.12deg, rgba(57, 127, 231, 0.69) -0.64%, #f579b7 100.02%);
+}
+/* Add your custom styles here */
+.btn-color{
+  background: linear-gradient(108.12deg, rgba(66, 135, 240, 0.69) -0.64%, #fd80bf 100.02%);
+  color: #1A2151;
+}
+.btn-color a{
+  color: #1A2151;
+}
+.social-link {
+    color: #4b4a4a;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .social-link:hover {
+    color:#1A2151;
+  }
+  
+
+
+  .work-section,
+.education-section {
+  padding: 20px;
+  background: linear-gradient(108.12deg, rgba(187, 214, 255, 0.69) -0.64%, #f7c7df 100.02%);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.work-section h3,
+.education-section h3 {
+  color:#1A2151;
+}
+
+.work-section ul,
+.education-section ul {
+  list-style-type: disc;
+  padding: 0;
+}
+
+.work-section li,
+.education-section li {
+  margin-bottom: 20px;
+}
+
+.work-section h4,
+.education-section h4 {
+  color: #1A2151;
+  margin-bottom: 10px;
+}
+
+.work-section p,
+.education-section p {
+  color: #1A2151;
+}
+
+
+.skills-section {
+  padding: 20px;
+  background: linear-gradient(108.12deg, rgba(187, 214, 255, 0.69) -0.64%, #f7c7df 100.02%);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.skills-section h3 {
+  color: #1A2151;
+  margin-bottom: 30px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  background: linear-gradient(108.12deg, rgba(103, 163, 253, 0.69) -0.64%, #f06cae 100.02%);
+  color: #272626;
+  border-radius: 20px;
+}
+
+/* Animation */
+.skills-list li {
+  animation-name: skillsAnimation;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes skillsAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
