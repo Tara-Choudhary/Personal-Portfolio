@@ -12,13 +12,13 @@
 }
 
 .navbar-brand,.nav-link{
-  color: #1b1b1b;
+  color: white;
 }
 .nav-link:hover{
-  color: #e2cfcf;
+  color: #1b1b1b;
 }
 .navbar-brand:hover{
-  color: #eee9e9;
+  color: #1b1b1b;
 }
 
 .social-link {
