@@ -1,14 +1,36 @@
  
 .bg-color{
-  background: linear-gradient(108.12deg, rgba(57, 127, 231, 0.69) -0.64%, #f579b7 100.02%);
+  background-color: #5663db;
+  color: #faf5f5;
 }
-/* Add your custom styles here */
+.logo-text{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
 .btn-color{
-  background: linear-gradient(108.12deg, rgba(66, 135, 240, 0.69) -0.64%, #fd80bf 100.02%);
-  color: #1A2151;
+  background-color: #2e8ee7;
+  
+  border: 1px solid black;
 }
 .btn-color a{
-  color: #1A2151;
+  color: #ffffff;
+}
+
+.navbar-brand, .nav-link ,a{
+  color: #1b1b1b;
+}
+.nav-link a:hover{
+  color: #868484;
+}
+.navbar-brand a:hover{
+  color: #eee9e9;
+}
+
+hr{
+  border-top: 1px solid rgb(116, 114, 114);
 }
 
 .social-link {
@@ -21,12 +43,15 @@
     color:#1A2151;
   }
   
-
-
+  
+  .work-section{
+    
+  border-right: 1px solid rgb(184, 184, 184);
+  
+  }
   .work-section,
 .education-section {
   padding: 20px;
-  background: linear-gradient(108.12deg, rgba(187, 214, 255, 0.69) -0.64%, #f7c7df 100.02%);
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -58,15 +83,17 @@
   color: #1A2151;
 }
 
+.skills-section{
+  border-right: 1px solid rgb(184, 184, 184);
+}
 
-.skills-section {
+.skills-section, .skills-section1 {
   padding: 20px;
-  background: linear-gradient(108.12deg, rgba(187, 214, 255, 0.69) -0.64%, #f7c7df 100.02%);
   border-radius: 5px;
   margin-bottom: 20px;
 }
 
-.skills-section h3 {
+.skills-section h3 , .skills-section1 h3 {
   color: #1A2151;
   margin-bottom: 30px;
 }
@@ -89,7 +116,7 @@
 /* Animation */
 .skills-list li {
   animation-name: skillsAnimation;
-  animation-duration: 1s;
+  animation-duration: 10s;
   animation-fill-mode: both;
 }
 
